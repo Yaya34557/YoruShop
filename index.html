@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YoruShop — Maillots de football</title>
+<meta name="description" content="YoruShop — Maillots de football à Sète et ses alentours. Découvrez nos offres et notre stock disponible.">
+
+<!-- Le site n'est pas destiné à être indexé par les moteurs de recherche -->
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="YoruShop — Maillots de football">
+<meta property="og:description" content="Des maillots de football sélectionnés avec passion, à des prix accessibles.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.jpg">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">夜</span>
+      <span class="logo-text">YoruShop</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#top">Accueil</a></li>
+        <li><a href="#offres">Offres</a></li>
+        <li><a href="#stock">Stock</a></li>
+        <li><a href="#infos">Infos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#stock" class="btn btn-primary btn-small">Voir le stock</a>
+      <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul>
+      <li><a href="#top">Accueil</a></li>
+      <li><a href="#offres">Offres</a></li>
+      <li><a href="#stock">Stock</a></li>
+      <li><a href="#infos">Infos</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#stock" class="btn btn-primary">Voir le stock</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMax slice" class="hero-svg">
+        <circle cx="960" cy="220" r="140" class="hero-sun"></circle>
+        <path d="M -50 620 L 300 300 L 560 480 L 780 260 L 1250 620 Z" class="hero-fuji-back"></path>
+        <path d="M 120 620 L 470 260 L 560 350 L 640 260 L 1000 620 Z" class="hero-fuji"></path>
+        <path d="M 400 330 Q 470 300 540 330 L 560 350 Q 470 320 400 350 Z" class="hero-fuji-snow"></path>
+      </svg>
+      <span class="hero-kanji" aria-hidden="true">夜</span>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-kicker">Maillots de football — édition Sète</p>
+      <h1 class="hero-title">Le style.<br>La passion.<br>L'esprit japonais.</h1>
+      <p class="hero-subtitle">Des maillots de football sélectionnés avec passion, à des prix accessibles.</p>
+      <div class="hero-actions">
+        <a href="#stock" class="btn btn-primary">Voir le stock</a>
+        <a href="#offres" class="btn btn-outline">Découvrir les offres</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OFFRES ============ -->
+  <section class="offers" id="offres">
+    <div class="section-inner">
+      <h2 class="section-title">Nos offres</h2>
+
+      <div class="offers-grid">
+        <article class="offer-card">
+          <h3 class="offer-name">Aka</h3>
+          <p class="offer-content">1 maillot</p>
+          <p class="offer-price">15&nbsp;€</p>
+          <p class="offer-desc">Le choix simple et efficace.</p>
+          <a href="#stock" class="btn btn-outline btn-small">Voir le stock</a>
+        </article>
+
+        <article class="offer-card offer-card--featured">
+          <span class="offer-badge">Populaire</span>
+          <h3 class="offer-name">Ao</h3>
+          <p class="offer-content">2 maillots</p>
+          <p class="offer-price">25&nbsp;€</p>
+          <p class="offer-desc">Deux maillots, plus de choix.</p>
+          <a href="#stock" class="btn btn-primary btn-small">Voir le stock</a>
+        </article>
+
+        <article class="offer-card">
+          <h3 class="offer-name">Shiro</h3>
+          <p class="offer-content">3 maillots</p>
+          <p class="offer-price">35&nbsp;€</p>
+          <p class="offer-desc">Trois maillots, trois fois plus de passion.</p>
+          <a href="#stock" class="btn btn-outline btn-small">Voir le stock</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STOCK ============ -->
+  <section class="stock" id="stock">
+    <div class="section-inner">
+      <h2 class="section-title">Stock disponible</h2>
+      <p class="section-text">Découvrez les maillots actuellement disponibles. Le stock peut évoluer régulièrement.</p>
+
+      <div class="stock-controls">
+        <div class="search-wrap">
+          <input type="search" id="search-input" class="search-input" placeholder="Rechercher un maillot...">
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrer par disponibilité">
+          <button class="filter-btn is-active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="available">Disponibles</button>
+          <button class="filter-btn" data-filter="out">Rupture de stock</button>
+        </div>
+
+        <div class="filters filters-secondary">
+          <select id="team-filter" class="select-filter" aria-label="Filtrer par équipe">
+            <option value="all">Toutes les équipes</option>
+          </select>
+          <select id="size-filter" class="select-filter" aria-label="Filtrer par taille">
+            <option value="all">Toutes les tailles</option>
+          </select>
+          <select id="price-filter" class="select-filter" aria-label="Trier par prix">
+            <option value="default">Trier par prix</option>
+            <option value="asc">Prix croissant</option>
+            <option value="desc">Prix décroissant</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+        <!-- Générés par script.js -->
+      </div>
+
+      <p class="products-empty" id="products-empty" hidden>Aucun maillot ne correspond à votre recherche.</p>
+    </div>
+  </section>
+
+  <!-- ============ COMMENT COMMANDER ============ -->
+  <section class="how" id="comment-commander">
+    <div class="section-inner">
+      <h2 class="section-title">Comment ça marche ?</h2>
+
+      <div class="how-grid">
+        <div class="how-step">
+          <span class="how-number">01</span>
+          <h3>Choisis ton maillot</h3>
+          <p>Parcours le stock disponible et sélectionne ton maillot.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-number">02</span>
+          <h3>Passe ta commande</h3>
+          <p>Contacte YoruShop pour confirmer ton choix et ta taille.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-number">03</span>
+          <h3>Reçois ton maillot</h3>
+          <p>La livraison est prévue entre 2 et 3 semaines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LIVRAISON ============ -->
+  <section class="delivery" id="infos">
+    <div class="section-inner">
+      <h2 class="section-title">Informations de livraison</h2>
+
+      <div class="delivery-grid">
+        <div class="delivery-card">
+          <h3>Délai</h3>
+          <p>Livraison prévue entre 2 et 3 semaines.</p>
+        </div>
+        <div class="delivery-card">
+          <h3>Zone</h3>
+          <p>Livraison à Sète et ses alentours.</p>
+        </div>
+        <div class="delivery-card">
+          <h3>Stock</h3>
+          <p>Stock limité — disponibilité variable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="section-inner">
+      <h2 class="section-title">FAQ</h2>
+
+      <div class="faq-list" id="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Quels sont les délais de livraison ?
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>La livraison est prévue entre 2 et 3 semaines.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Où livrez-vous ?
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Nous livrons à Sète et ses alentours.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Comment commander ?
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Sélectionnez votre maillot dans le stock puis contactez YoruShop pour confirmer votre commande.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Les tailles sont-elles disponibles ?
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Les tailles disponibles sont indiquées directement sur chaque produit.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Puis-je commander plusieurs maillots ?
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Oui. Les offres AKA, AO et SHIRO permettent de commander respectivement 1, 2 ou 3 maillots.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <h2 class="section-title">Une question ?</h2>
+      <p class="section-text">Une question sur un maillot, une taille ou une commande ? Contacte YoruShop.</p>
+
+      <div class="contact-actions">
+        <a href="#" id="contact-instagram" class="btn btn-outline" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" id="contact-whatsapp" class="btn btn-primary" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="#" id="contact-email" class="btn btn-outline">Contact</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ MODALE COMMANDE ============ -->
+<div class="order-modal" id="order-modal" aria-hidden="true">
+  <div class="order-modal-backdrop" id="order-modal-backdrop"></div>
+  <div class="order-modal-panel" role="dialog" aria-modal="true" aria-labelledby="order-modal-title">
+    <button class="order-modal-close" id="order-modal-close" aria-label="Fermer">×</button>
+    <h3 id="order-modal-title">Commander ce maillot</h3>
+    <p id="order-modal-desc" class="order-modal-product"></p>
+    <p class="order-modal-text">Choisis comment tu souhaites contacter YoruShop pour confirmer ta commande.</p>
+    <div class="order-modal-actions">
+      <a href="#" id="order-whatsapp" class="btn btn-primary" target="_blank" rel="noopener">Commander via WhatsApp</a>
+      <a href="#" id="order-instagram" class="btn btn-outline" target="_blank" rel="noopener">Commander via Instagram</a>
+      <a href="#contact" id="order-contact" class="btn btn-outline">Utiliser le formulaire de contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">夜</span>
+      <span class="logo-text">YoruShop</span>
+      <p>Le style. La passion. L'esprit japonais.</p>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#top">Accueil</a>
+      <a href="#offres">Offres</a>
+      <a href="#stock">Stock</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <p class="footer-copy">© 2026 YoruShop — Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
