@@ -19,7 +19,6 @@ const CONFIG = {
 // ===============================
 
 const products = [
-  // AJOUTER LES PRODUITS ICI
   {
     name: "FC Barcelona",
     type: "Maillot domicile",
@@ -45,7 +44,7 @@ const products = [
     size: "S",
     price: 15,
     stock: false,
-    image: "c:\Users\Itoshi Yanis\Pictures\maillot-psg-domicile-manches-longues-homme-2025-2026.webp"
+    image: "Psg.webp"
   },
   {
     name: "Manchester City",
@@ -54,7 +53,7 @@ const products = [
     size: "M",
     price: 15,
     stock: true,
-    image: "Real.webp"
+    image: "City.webp"
   },
   {
     name: "Bayern Munich",
@@ -63,7 +62,7 @@ const products = [
     size: "XL",
     price: 15,
     stock: true,
-    image: "c:\Users\Itoshi Yanis\Pictures\Maillot-Match-Bayern-Munich-2025-2026-domicile.webp"
+    image: "Bayern.webp"
   },
   {
     name: "Juventus",
@@ -72,7 +71,7 @@ const products = [
     size: "M",
     price: 15,
     stock: false,
-    image: "c:\Users\Itoshi Yanis\Pictures\2005635000003_1.webp"
+    image: "Juve.webp"
   }
 ];
 
