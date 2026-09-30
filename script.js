@@ -36,7 +36,7 @@ const products = [
     size: "L",
     price: 15,
     stock: true,
-    image: "c:\Users\Itoshi Yanis\Pictures\maillot-real-madrid-domicile-manches-longues-2025-20262025082620150668adf9aa2077d.webp"
+    image: "Real.webp"
   },
   {
     name: "Paris Saint-Germain",
