@@ -27,7 +27,7 @@ const products = [
     size: "M",
     price: 15,
     stock: true,
-    image: "c:\Users\Itoshi Yanis\Pictures\Maillot-Match-Barcelone-2025-2026-domicile-Manches-longues-300x300.webp"
+    image: "Fc barcelone.webp"
   },
   {
     name: "Real Madrid",
