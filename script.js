@@ -33,7 +33,7 @@ const products = [
     type: "Maillot domicile",
     season: "2025/26",
     size: "L",
-    price: 15,
+    price: 35,
     stock: true,
     image: "Real.webp"
   },
@@ -42,7 +42,7 @@ const products = [
     type: "Maillot extérieur",
     season: "2024/25",
     size: "S",
-    price: 15,
+    price: 30,
     stock: false,
     image: "Psg.webp"
   },
@@ -51,7 +51,7 @@ const products = [
     type: "Maillot domicile",
     season: "2025/26",
     size: "M",
-    price: 15,
+    price: 25,
     stock: true,
     image: "City.webp"
   },
@@ -60,7 +60,7 @@ const products = [
     type: "Maillot domicile",
     season: "2025/26",
     size: "XL",
-    price: 15,
+    price: 25,
     stock: true,
     image: "Bayern.webp"
   },
@@ -69,7 +69,7 @@ const products = [
     type: "Maillot extérieur",
     season: "2024/25",
     size: "M",
-    price: 15,
+    price: 30,
     stock: false,
     image: "Juve.webp"
   }
