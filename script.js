@@ -54,7 +54,7 @@ const products = [
     size: "M",
     price: 15,
     stock: true,
-    image: "c:\Users\Itoshi Yanis\Pictures\Maillot-Manchester-City-Domicile-2025-2026-Manches-Longues-1-300x300.webp"
+    image: "Real.webp"
   },
   {
     name: "Bayern Munich",
