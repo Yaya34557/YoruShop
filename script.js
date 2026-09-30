@@ -27,7 +27,7 @@ const products = [
     size: "M",
     price: 15,
     stock: true,
-    image: "images/products/Fc barcelone.webp"
+    image: "Fc barcelone.jpg"
   },
   {
     name: "Real Madrid",
